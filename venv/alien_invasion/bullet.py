@@ -5,7 +5,7 @@ class Bullet(Sprite):
     """一个对飞船发射子弹进行管理的类"""
     def __init__(self,ai_settings,screen,ship):
         """在飞船所处的位置创建一个子弹对象"""
-        super(Bullet,self).__init__()
+        super().__init__()
         self.screen = screen
 
         #在0,0处设置一个表示子弹的矩形，再调整正确位置
