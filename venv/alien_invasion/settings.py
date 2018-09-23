@@ -17,4 +17,3 @@ class Settings:
         self.bullet_height = 15
         self.bullet_color = 230, 0, 0
         self.bullets_allowed = 5
-
