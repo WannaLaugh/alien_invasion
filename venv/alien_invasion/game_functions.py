@@ -32,8 +32,8 @@ def create_fleet(ai_settings, screen, aliens):
     # 外星人间距为外星人宽度
     alien = Alien(ai_settings, screen)
     alien_width = alien.rect.width
-    avaliable_space_x = ai_settings.screen_width - 2 * alien_width
-    number_aliens_x = int(avaliable_space_x / (2 * alien_width))
+    available_space_x = ai_settings.screen_width - 2 * alien_width
+    number_aliens_x = int(available_space_x / (2 * alien_width))
 
     # 创建第一行外星人
     for alien_number in range(number_aliens_x):
@@ -42,6 +42,7 @@ def create_fleet(ai_settings, screen, aliens):
         alien.x = alien_width + 2 * alien_width * alien_number
         alien.rect.x = alien.x
         aliens.add(alien)
+
 
 def check_keyup_events(event, ship):
     """响应松开"""
