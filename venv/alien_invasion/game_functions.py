@@ -85,6 +85,9 @@ def check_play_button(ai_settings, screen, stats, play_button, ship, aliens,
     """点击play按钮时开始游戏"""
     button_clicked = play_button.rect.collidepoint(mouse_x, mouse_y)
     if button_clicked and not stats.game_active:
+        # 重置游戏设置
+        ai_settings.initialize_dynamic_settings()
+
         # 隐藏光标
         pygame.mouse.set_visible(False)
         # 重置游戏统计数据
@@ -100,7 +103,7 @@ def check_play_button(ai_settings, screen, stats, play_button, ship, aliens,
         ship.center_ship()
 
 
-def update_screen(ai_settings, screen, stats, ship, aliens, bullets, play_button):
+def update_screen(ai_settings, screen, stats, sb, ship, aliens, bullets, play_button):
     """更新屏幕上的图像并切换到新屏幕"""
     # 每次循环时都重绘屏幕
     screen.fill(ai_settings.bg_color)
@@ -108,6 +111,9 @@ def update_screen(ai_settings, screen, stats, ship, aliens, bullets, play_button
         bullet.draw_bullet()
     ship.blitme()
     aliens.draw(screen)
+
+    # 显示得分
+    sb.show_score()
 
     # 如果处于非活动状态，就绘制Play按钮
     if not stats.game_active:
@@ -117,7 +123,7 @@ def update_screen(ai_settings, screen, stats, ship, aliens, bullets, play_button
     pygame.display.flip()
 
 
-def update_bullets(ai_settings, screen, ship, aliens, bullets):
+def update_bullets(ai_settings, screen, stats, sb, ship, aliens, bullets):
     """更新子弹的位置并删除已经消失的子弹"""
     # 更新子弹的位置
     bullets.update()
@@ -127,18 +133,24 @@ def update_bullets(ai_settings, screen, ship, aliens, bullets):
         if bullet.rect.bottom <= 0:
             bullets.remove(bullet)
 
-    check_bullet_alien_collisions(ai_settings, screen, ship, aliens, bullets)
+    check_bullet_alien_collisions(ai_settings, screen, stats, sb, ship, aliens, bullets)
 
 
-def check_bullet_alien_collisions(ai_settings, screen, ship, aliens, bullets):
+def check_bullet_alien_collisions(ai_settings, screen, stats, sb, ship, aliens, bullets):
     """响应子弹和外星人的碰撞"""
     # 检查是否有子弹击中了外星人
     # 删除响应的子弹和外星人,两个实参True表示两类全都删除
     collisions = pygame.sprite.groupcollide(bullets, aliens, True, True)
 
+    if collisions:
+        for aliens in collisions.values():
+            stats.score += ai_settings.alien_points * len(aliens)
+            sb.prep_score()
+
     if len(aliens) == 0:
-        # 删除现有的子弹并新建一群外星人
+        # 删除现有的子弹，加快游戏速度，并新建一群外星人
         bullets.empty()
+        ai_settings.increase_speed()
         create_fleet(ai_settings, screen, ship, aliens)
 
 
