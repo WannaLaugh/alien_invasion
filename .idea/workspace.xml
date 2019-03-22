@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6153b4be-c344-45ed-8d9e-810308b2318c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/alien_invasion/alien_invasion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/alien_invasion/game_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/alien_invasion/game_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/alien_invasion/game_stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/alien_invasion/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/alien_invasion/scoreboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/alien_invasion/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/alien_invasion/settings.py" afterDir="false" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/" />
@@ -22,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/alien_invasion/alien_invasion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+            <state relative-caret-position="282">
+              <caret line="41" column="55" lean-forward="true" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -31,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/alien_invasion/game_functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="145" column="37" selection-start-line="145" selection-start-column="37" selection-end-line="145" selection-end-column="37" />
+            <state relative-caret-position="87">
+              <caret line="104" column="21" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="21" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
                 <element signature="e#150#498#0" />
@@ -54,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/alien_invasion/game_stats.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state relative-caret-position="261">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -63,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/alien_invasion/scoreboard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="221">
+              <caret line="59" column="59" lean-forward="true" selection-start-line="59" selection-start-column="59" selection-end-line="59" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -114,13 +117,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/alien_invasion/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+            <state relative-caret-position="183">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="29">
@@ -150,11 +153,11 @@
       <find>update</find>
       <find>stats</find>
       <find>check_pla</find>
-      <find>check_play_button</find>
       <find>ship</find>
       <find>ship_hit</find>
       <find>check_bull</find>
       <find>update_bull</find>
+      <find>check_play_button</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,12 +170,12 @@
         <option value="$PROJECT_DIR$/venv/alien_invasion/alien.py" />
         <option value="$PROJECT_DIR$/venv/alien_invasion/ship.py" />
         <option value="$PROJECT_DIR$/venv/alien_invasion/button.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/venv/alien_invasion/settings.py" />
         <option value="$PROJECT_DIR$/venv/alien_invasion/game_stats.py" />
-        <option value="$PROJECT_DIR$/venv/alien_invasion/alien_invasion.py" />
         <option value="$PROJECT_DIR$/venv/alien_invasion/scoreboard.py" />
         <option value="$PROJECT_DIR$/venv/alien_invasion/game_functions.py" />
-        <option value="$PROJECT_DIR$/venv/alien_invasion/settings.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/venv/alien_invasion/alien_invasion.py" />
       </list>
     </option>
   </component>
@@ -335,12 +338,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22098215" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15773809" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.15509762" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25081968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17540984" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.66885245" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -550,24 +553,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/alien_invasion/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/alien_invasion/alien_invasion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="41" column="55" lean-forward="true" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/alien_invasion/game_stats.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="261">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/alien_invasion/scoreboard.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="221">
+          <caret line="59" column="59" lean-forward="true" selection-start-line="59" selection-start-column="59" selection-end-line="59" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/alien_invasion/game_functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="145" column="37" selection-start-line="145" selection-start-column="37" selection-end-line="145" selection-end-column="37" />
+        <state relative-caret-position="87">
+          <caret line="104" column="21" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="21" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
             <element signature="e#150#498#0" />
@@ -579,30 +606,6 @@
             <element signature="e#3710#3873#0" />
             <element signature="e#3929#4078#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/alien_invasion/alien_invasion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/alien_invasion/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
